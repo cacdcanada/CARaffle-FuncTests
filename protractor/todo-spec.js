@@ -3,6 +3,6 @@ describe('CDBU Modern Software Factory UI Test - Canada Environment', function()
     browser.ignoreSynchronization = true;
     browser.get('http://canada-preprod.cdbu.io/');
     element(by.css('[name="name"]')).sendKeys('Selenium Test User');
-    element(by.buttonText('Submit')).click();
+    element(by.buttonText('I\'m In!')).click();
     });
 });
